@@ -79,11 +79,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(2, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(330, 44);
+            this.label1.Size = new System.Drawing.Size(332, 42);
             this.label1.TabIndex = 1;
             this.label1.Text = "Admin Dashboard";
             // 
@@ -262,7 +262,7 @@
             this.dataGrid_Project.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid_Project.Location = new System.Drawing.Point(350, 122);
             this.dataGrid_Project.Name = "dataGrid_Project";
-            this.dataGrid_Project.Size = new System.Drawing.Size(448, 244);
+            this.dataGrid_Project.Size = new System.Drawing.Size(448, 318);
             this.dataGrid_Project.TabIndex = 21;
             // 
             // Admin
@@ -270,7 +270,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(809, 387);
+            this.ClientSize = new System.Drawing.Size(867, 476);
             this.Controls.Add(this.dataGrid_Project);
             this.Controls.Add(this.btn_ChangeProfilePicture);
             this.Controls.Add(this.label8);
