@@ -1,0 +1,17 @@
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.csproj.AssemblyReference.cache
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Admin.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Admin_Project.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Admin_User.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Employee.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Employee_Home.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Employee_Project.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Home.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Login.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.Properties.Resources.resources
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.csproj.GenerateResource.cache
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.csproj.CoreCompileInputs.cache
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\bin\Debug\WorkHive64.exe.config
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\bin\Debug\WorkHive64.exe
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\bin\Debug\WorkHive64.pdb
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.exe
+C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.pdb
