@@ -152,7 +152,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 13);
             this.label4.TabIndex = 8;
-            this.label4.Text = "v0.5.2 Beta";
+            this.label4.Text = "v0.5.5 Beta";
             // 
             // Login
             // 

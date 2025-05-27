@@ -32,6 +32,7 @@
             this.btn_ManageEmployee = new System.Windows.Forms.Button();
             this.btn_Back = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_Logs = new System.Windows.Forms.Button();
             this.btn_ManageProject = new System.Windows.Forms.Button();
             this.btn_Exit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -97,14 +98,28 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.btn_Logs);
             this.panel2.Controls.Add(this.btn_Home);
             this.panel2.Controls.Add(this.btn_ManageProject);
             this.panel2.Controls.Add(this.btn_ManageEmployee);
             this.panel2.Controls.Add(this.btn_Back);
             this.panel2.Location = new System.Drawing.Point(0, 48);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(796, 40);
+            this.panel2.Size = new System.Drawing.Size(919, 40);
             this.panel2.TabIndex = 19;
+            // 
+            // btn_Logs
+            // 
+            this.btn_Logs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(218)))), ((int)(((byte)(248)))));
+            this.btn_Logs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Logs.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Logs.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Logs.Location = new System.Drawing.Point(796, 3);
+            this.btn_Logs.Name = "btn_Logs";
+            this.btn_Logs.Size = new System.Drawing.Size(114, 33);
+            this.btn_Logs.TabIndex = 40;
+            this.btn_Logs.Text = "Logs";
+            this.btn_Logs.UseVisualStyleBackColor = false;
             // 
             // btn_ManageProject
             // 
@@ -127,11 +142,11 @@
             this.btn_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Exit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Exit.Location = new System.Drawing.Point(753, 3);
+            this.btn_Exit.Location = new System.Drawing.Point(873, 3);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(37, 42);
             this.btn_Exit.TabIndex = 8;
-            this.btn_Exit.Text = "s";
+            this.btn_Exit.Text = "X";
             this.btn_Exit.UseVisualStyleBackColor = false;
             // 
             // label1
@@ -152,7 +167,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(796, 49);
+            this.panel1.Size = new System.Drawing.Size(919, 49);
             this.panel1.TabIndex = 18;
             // 
             // dataGrid_Project
@@ -160,7 +175,7 @@
             this.dataGrid_Project.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid_Project.Location = new System.Drawing.Point(3, 92);
             this.dataGrid_Project.Name = "dataGrid_Project";
-            this.dataGrid_Project.Size = new System.Drawing.Size(787, 244);
+            this.dataGrid_Project.Size = new System.Drawing.Size(907, 244);
             this.dataGrid_Project.TabIndex = 20;
             // 
             // input_ProjectTask
@@ -170,7 +185,7 @@
             this.input_ProjectTask.Location = new System.Drawing.Point(3, 435);
             this.input_ProjectTask.Multiline = true;
             this.input_ProjectTask.Name = "input_ProjectTask";
-            this.input_ProjectTask.Size = new System.Drawing.Size(557, 89);
+            this.input_ProjectTask.Size = new System.Drawing.Size(683, 88);
             this.input_ProjectTask.TabIndex = 34;
             // 
             // label4
@@ -188,9 +203,9 @@
             // 
             this.input_ProjectHandler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(222)))), ((int)(((byte)(200)))));
             this.input_ProjectHandler.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.input_ProjectHandler.Location = new System.Drawing.Point(290, 369);
+            this.input_ProjectHandler.Location = new System.Drawing.Point(366, 369);
             this.input_ProjectHandler.Name = "input_ProjectHandler";
-            this.input_ProjectHandler.Size = new System.Drawing.Size(270, 32);
+            this.input_ProjectHandler.Size = new System.Drawing.Size(320, 32);
             this.input_ProjectHandler.TabIndex = 32;
             // 
             // label3
@@ -198,7 +213,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(286, 342);
+            this.label3.Location = new System.Drawing.Point(362, 342);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(169, 24);
             this.label3.TabIndex = 31;
@@ -210,7 +225,7 @@
             this.input_ProjectName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.input_ProjectName.Location = new System.Drawing.Point(3, 369);
             this.input_ProjectName.Name = "input_ProjectName";
-            this.input_ProjectName.Size = new System.Drawing.Size(270, 32);
+            this.input_ProjectName.Size = new System.Drawing.Size(340, 32);
             this.input_ProjectName.TabIndex = 30;
             // 
             // label2
@@ -230,7 +245,7 @@
             this.btn_Insert.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Insert.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Insert.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Insert.Location = new System.Drawing.Point(596, 387);
+            this.btn_Insert.Location = new System.Drawing.Point(707, 385);
             this.btn_Insert.Name = "btn_Insert";
             this.btn_Insert.Size = new System.Drawing.Size(194, 33);
             this.btn_Insert.TabIndex = 37;
@@ -243,7 +258,7 @@
             this.btn_Edit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Edit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Edit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Edit.Location = new System.Drawing.Point(596, 431);
+            this.btn_Edit.Location = new System.Drawing.Point(708, 429);
             this.btn_Edit.Name = "btn_Edit";
             this.btn_Edit.Size = new System.Drawing.Size(194, 33);
             this.btn_Edit.TabIndex = 36;
@@ -256,7 +271,7 @@
             this.btn_Delete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Delete.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Delete.Location = new System.Drawing.Point(596, 476);
+            this.btn_Delete.Location = new System.Drawing.Point(708, 474);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(194, 33);
             this.btn_Delete.TabIndex = 35;
@@ -266,11 +281,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(728, 512);
+            this.label5.Location = new System.Drawing.Point(840, 510);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 13);
             this.label5.TabIndex = 38;
-            this.label5.Text = "v0.5.2 Beta";
+            this.label5.Text = "v0.5.5 Beta";
             // 
             // btn_Approve
             // 
@@ -278,7 +293,7 @@
             this.btn_Approve.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Approve.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Approve.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Approve.Location = new System.Drawing.Point(596, 344);
+            this.btn_Approve.Location = new System.Drawing.Point(708, 342);
             this.btn_Approve.Name = "btn_Approve";
             this.btn_Approve.Size = new System.Drawing.Size(194, 33);
             this.btn_Approve.TabIndex = 39;
@@ -290,7 +305,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(794, 529);
+            this.ClientSize = new System.Drawing.Size(914, 530);
             this.Controls.Add(this.btn_Approve);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_Insert);
@@ -339,5 +354,6 @@
         private System.Windows.Forms.Button btn_Delete;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btn_Approve;
+        private System.Windows.Forms.Button btn_Logs;
     }
 }

@@ -33,6 +33,7 @@
             this.btn_Exit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_Logs = new System.Windows.Forms.Button();
             this.btn_Home = new System.Windows.Forms.Button();
             this.btn_ManageProject = new System.Windows.Forms.Button();
             this.btn_ManageEmployee = new System.Windows.Forms.Button();
@@ -60,7 +61,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(798, 49);
+            this.panel1.Size = new System.Drawing.Size(913, 49);
             this.panel1.TabIndex = 8;
             // 
             // btn_Exit
@@ -69,7 +70,7 @@
             this.btn_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Exit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Exit.Location = new System.Drawing.Point(753, 3);
+            this.btn_Exit.Location = new System.Drawing.Point(873, 4);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(37, 42);
             this.btn_Exit.TabIndex = 8;
@@ -90,14 +91,28 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.btn_Logs);
             this.panel2.Controls.Add(this.btn_Home);
             this.panel2.Controls.Add(this.btn_ManageProject);
             this.panel2.Controls.Add(this.btn_ManageEmployee);
             this.panel2.Controls.Add(this.btn_Back);
             this.panel2.Location = new System.Drawing.Point(0, 48);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(798, 40);
+            this.panel2.Size = new System.Drawing.Size(913, 40);
             this.panel2.TabIndex = 9;
+            // 
+            // btn_Logs
+            // 
+            this.btn_Logs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(218)))), ((int)(((byte)(248)))));
+            this.btn_Logs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Logs.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Logs.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Logs.Location = new System.Drawing.Point(796, 4);
+            this.btn_Logs.Name = "btn_Logs";
+            this.btn_Logs.Size = new System.Drawing.Size(114, 33);
+            this.btn_Logs.TabIndex = 14;
+            this.btn_Logs.Text = "Logs";
+            this.btn_Logs.UseVisualStyleBackColor = false;
             // 
             // btn_Home
             // 
@@ -238,11 +253,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(728, 369);
+            this.label8.Location = new System.Drawing.Point(838, 369);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(62, 13);
             this.label8.TabIndex = 18;
-            this.label8.Text = "v0.5.2 Beta";
+            this.label8.Text = "v0.5.5 Beta";
             // 
             // btn_ChangeProfilePicture
             // 
@@ -260,9 +275,9 @@
             // dataGrid_Project
             // 
             this.dataGrid_Project.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGrid_Project.Location = new System.Drawing.Point(350, 122);
+            this.dataGrid_Project.Location = new System.Drawing.Point(587, 99);
             this.dataGrid_Project.Name = "dataGrid_Project";
-            this.dataGrid_Project.Size = new System.Drawing.Size(448, 244);
+            this.dataGrid_Project.Size = new System.Drawing.Size(313, 267);
             this.dataGrid_Project.TabIndex = 21;
             // 
             // Admin
@@ -270,7 +285,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(809, 387);
+            this.ClientSize = new System.Drawing.Size(912, 388);
             this.Controls.Add(this.dataGrid_Project);
             this.Controls.Add(this.btn_ChangeProfilePicture);
             this.Controls.Add(this.label8);
@@ -318,5 +333,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_ChangeProfilePicture;
         private System.Windows.Forms.DataGridView dataGrid_Project;
+        private System.Windows.Forms.Button btn_Logs;
     }
 }
