@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|c:\\users\\naufal nd\\source\\repos\\workhive64\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|c:\\users\\naufal nd\\source\\repos\\workhive64\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -90,8 +90,7 @@
               "RelativeToolTip": "WorkHive64\\Employee.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:01:35.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:01:35.982Z"
             },
             {
               "$type": "Document",
@@ -101,7 +100,7 @@
               "RelativeDocumentMoniker": "WorkHive64\\Login.cs",
               "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Login.cs",
               "RelativeToolTip": "WorkHive64\\Login.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwD4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T01:20:35.392Z",
               "EditorCaption": ""
@@ -128,8 +127,7 @@
               "RelativeToolTip": "WorkHive64\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T04:30:50.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T04:30:50.109Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "WorkHive64\\Admin_Project.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T01:57:12.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T01:57:12.722Z"
             },
             {
               "$type": "Document",
@@ -153,8 +150,7 @@
               "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Login.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:30:36.768Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T01:30:36.768Z"
             },
             {
               "$type": "Document",
@@ -176,8 +172,7 @@
               "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Admin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:58:28.447Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T01:58:28.447Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_Project.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Admin_Project.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T02:31:04.712Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T02:31:04.712Z"
             },
             {
               "$type": "Document",
@@ -200,8 +194,7 @@
               "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_User.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Admin_User.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T04:53:21.691Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T04:53:21.691Z"
             },
             {
               "$type": "Document",
@@ -223,8 +216,7 @@
               "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Employee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T04:54:48.671Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T04:54:48.671Z"
             },
             {
               "$type": "Document",
@@ -235,8 +227,7 @@
               "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Project.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Employee_Project.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T05:03:40.642Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T05:03:40.642Z"
             }
           ]
         }
