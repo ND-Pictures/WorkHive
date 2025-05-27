@@ -60,7 +60,7 @@ namespace WorkHive64
                 }
                 else
                 {
-                MessageBox.Show("Eror");
+                MessageBox.Show("Password atau ID Salah");
                 }
         }
     }
