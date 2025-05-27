@@ -46,9 +46,11 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_ChangeProfilePicture = new System.Windows.Forms.Button();
+            this.dataGrid_Project = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid_Project)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -255,12 +257,21 @@
             this.btn_ChangeProfilePicture.Text = "Change Picture";
             this.btn_ChangeProfilePicture.UseVisualStyleBackColor = false;
             // 
+            // dataGrid_Project
+            // 
+            this.dataGrid_Project.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGrid_Project.Location = new System.Drawing.Point(350, 122);
+            this.dataGrid_Project.Name = "dataGrid_Project";
+            this.dataGrid_Project.Size = new System.Drawing.Size(448, 244);
+            this.dataGrid_Project.TabIndex = 21;
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(794, 387);
+            this.ClientSize = new System.Drawing.Size(809, 387);
+            this.Controls.Add(this.dataGrid_Project);
             this.Controls.Add(this.btn_ChangeProfilePicture);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
@@ -281,6 +292,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid_Project)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,5 +317,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_ChangeProfilePicture;
+        private System.Windows.Forms.DataGridView dataGrid_Project;
     }
 }
