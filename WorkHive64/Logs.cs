@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace WorkHive64
 {
-    public partial class Employee_Project : Form
+    public partial class Logs : Form
     {
-        public Employee_Project()
+        public Logs()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Logs_Load(object sender, EventArgs e)
         {
 
         }
