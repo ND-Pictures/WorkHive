@@ -1,0 +1,67 @@
+[$RootKey$]
+"ThisVersionDTECLSID"="{a7bf22e5-9096-4075-97f6-a8e0eb8c44d8}"
+"InstallDir"="$RootFolder$"
+"ShellFolder"="$ShellFolder$"
+"DDEApplication"="SSMS.21.0"
+
+[$RootKey$\AppCommandLine\FirstLaunchSetup]
+@="First Launch Setup"
+
+[$RootKey$\Menus]
+"{B7B07F42-6013-4C67-A504-C771CBC7625A}"=",1000,1"
+
+[$RootKey$\Packages\{B7B07F42-6013-4C67-A504-C771CBC7625A}]
+"InprocServer32"="$PackageFolder$\SSMSMnu.dll"
+@="SSMS Menu Package"
+
+[$RootKey$\Packages\{B7B07F42-6013-4C67-A504-C771CBC7625A}\SatelliteDll]
+"DllName"="SSMSMui.dll"
+"Path"="$PackageFolder$"
+
+[$RootKey$\Profile]
+"AppIdSupportsProfiles"=dword:00000001
+"DefaultSettingsLocation"="$ShellFolder$\Common7\IDE\Profiles\"
+
+[$RootKey$\Services\{0C539790-12E4-11CF-B661-00AA004CD6D8}]
+"Name"="SApplicationObject Service"
+@="{B7B07F42-6013-4C67-A504-C771CBC7625A}"
+
+//Setting the URLs for SSMS Help
+[$RootKey$\Help]
+"AskAQuestionUrl"="https://go.microsoft.com/fwlink/?LinkId=224400&clcid=%VSSPV_LCID_HEX%"
+"SendFeedbackUrl"="https://go.microsoft.com/fwlink/?LinkId=224401&clcid=%VSSPV_LCID_HEX%"
+"GettingStartedUrl" = "https://aka.ms/GettingStartedHelpMenu-SSMS"
+"TipsAndTricksUrl" = "https://aka.ms/TipsandTricksHelpMenu-SSMS"
+"RoadmapUrl" = "https://aka.ms/SSMSRoadmap"
+"ReleaseNotesUrl" = "https://aka.ms/SSMSReleaseNotes"
+"OnlineF1Keyword" = "sql13.ssms.viewhelp.f1"
+"DefaultQuery" = "method=f1&query=sql13.ssms.viewhelp.f1"
+
+// Register the "Blue (SSMS)" theme
+[$RootKey$\Themes\{20e31bee-d5ff-4632-b88b-9cfe1e11061a}]
+@="Blue (SSMS)"
+"Name"="Blue (SSMS)"
+"FallbackId"="{a4d6a176-b948-4b29-8c66-53c97a1ed7d0}"
+
+[$RootKey$\StartPage]
+"NewsChannel"="https://go.microsoft.com/fwlink/?linkid=224423&clcid=%VSSPV_LCID_HEX%"
+
+[$RootKey$\AutoLoadPackages\{B7B07F42-6013-4C67-A504-C771CBC7625A}]
+@="UICONTEXT_SSMS"
+
+[$RootKey$\TemplatesSettings]
+"AppIdFilterTag"="SSMS"
+
+// Workaround while bug 1160832 is pending. A rogue pkgdef (Microsoft.VisualStudio.Web.PackageManagement) is overwriting this key with the wrong package value.
+[$RootKey$\ToolsOptionsPages\Projects]
+@="#14140"
+"Package"="{DA9FB551-C724-11D0-AE1F-00A0C90FFFC3}"
+"Sort"=dword:00000000
+
+// Disable Github badge hide/show setting
+[$RootKey$\FeatureFlags\VS\Copilot\HideCopilotBadgeSetting]
+"Value"=dword:00000001
+
+// Show files in the jumplist for SSMS instead of just folders/projects/solutions
+[$RootKey$\General]
+"ShowRecentFilesInJumplist"=dword:00000001

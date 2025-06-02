@@ -55,11 +55,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(2, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(387, 44);
+            this.label1.Size = new System.Drawing.Size(396, 42);
             this.label1.TabIndex = 1;
             this.label1.Text = "Employee Dashboard";
             // 
@@ -150,12 +150,13 @@
             this.btn_ManageProject.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ManageProject.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_ManageProject.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ManageProject.Location = new System.Drawing.Point(615, 3);
+            this.btn_ManageProject.Location = new System.Drawing.Point(715, 3);
             this.btn_ManageProject.Name = "btn_ManageProject";
             this.btn_ManageProject.Size = new System.Drawing.Size(176, 33);
             this.btn_ManageProject.TabIndex = 12;
             this.btn_ManageProject.Text = "Manage Project";
             this.btn_ManageProject.UseVisualStyleBackColor = false;
+            this.btn_ManageProject.Click += new System.EventHandler(this.btn_ManageProject_Click);
             // 
             // btn_Back
             // 
@@ -169,6 +170,7 @@
             this.btn_Back.TabIndex = 10;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
+            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // panel2
             // 
@@ -178,7 +180,7 @@
             this.panel2.Controls.Add(this.btn_Back);
             this.panel2.Location = new System.Drawing.Point(0, 48);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(858, 40);
+            this.panel2.Size = new System.Drawing.Size(891, 40);
             this.panel2.TabIndex = 30;
             // 
             // btn_Home
@@ -189,7 +191,7 @@
             this.btn_Home.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Home.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Home.ForeColor = System.Drawing.Color.Black;
-            this.btn_Home.Location = new System.Drawing.Point(528, 3);
+            this.btn_Home.Location = new System.Drawing.Point(628, 4);
             this.btn_Home.Name = "btn_Home";
             this.btn_Home.Size = new System.Drawing.Size(81, 33);
             this.btn_Home.TabIndex = 13;
@@ -202,12 +204,13 @@
             this.btn_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Exit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Exit.Location = new System.Drawing.Point(754, 3);
+            this.btn_Exit.Location = new System.Drawing.Point(854, 4);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(37, 42);
             this.btn_Exit.TabIndex = 8;
             this.btn_Exit.Text = "X";
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // panel1
             // 
@@ -216,7 +219,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(858, 49);
+            this.panel1.Size = new System.Drawing.Size(891, 49);
             this.panel1.TabIndex = 29;
             // 
             // openFileDialog1
@@ -226,7 +229,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(720, 369);
+            this.label8.Location = new System.Drawing.Point(928, 369);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(62, 13);
             this.label8.TabIndex = 40;
@@ -235,9 +238,9 @@
             // dataGrid_Project
             // 
             this.dataGrid_Project.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGrid_Project.Location = new System.Drawing.Point(469, 99);
+            this.dataGrid_Project.Location = new System.Drawing.Point(450, 99);
             this.dataGrid_Project.Name = "dataGrid_Project";
-            this.dataGrid_Project.Size = new System.Drawing.Size(313, 267);
+            this.dataGrid_Project.Size = new System.Drawing.Size(441, 267);
             this.dataGrid_Project.TabIndex = 41;
             // 
             // Employee
@@ -245,7 +248,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(794, 386);
+            this.ClientSize = new System.Drawing.Size(894, 386);
             this.Controls.Add(this.dataGrid_Project);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);

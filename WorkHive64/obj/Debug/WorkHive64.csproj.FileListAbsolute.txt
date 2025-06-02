@@ -15,3 +15,23 @@ C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\bin\Debug\WorkHive64.exe
 C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\bin\Debug\WorkHive64.pdb
 C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.exe
 C:\Users\Naufal ND\source\repos\WorkHive64\WorkHive64\obj\Debug\WorkHive64.pdb
+E:\WorkHive\WorkHive64\bin\Debug\WorkHive64.exe.config
+E:\WorkHive\WorkHive64\bin\Debug\WorkHive64.exe
+E:\WorkHive\WorkHive64\bin\Debug\WorkHive64.pdb
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.csproj.AssemblyReference.cache
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Admin.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Admin_Project.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Admin_User.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Employee.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Employee_Home.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Employee_Project.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Home.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Login.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Logs.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Properties.Resources.resources
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.csproj.GenerateResource.cache
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.csproj.CoreCompileInputs.cache
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.exe
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.pdb
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.exe.config
+E:\WorkHive\WorkHive64\obj\Debug\WorkHive64.Comments.resources

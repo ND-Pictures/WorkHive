@@ -54,6 +54,7 @@
             this.ProfilePicture = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btn_ChooseImage = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_User)).BeginInit();
             this.panel1.SuspendLayout();
@@ -63,11 +64,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(2, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(330, 44);
+            this.label1.Size = new System.Drawing.Size(332, 42);
             this.label1.TabIndex = 1;
             this.label1.Text = "Admin Dashboard";
             // 
@@ -96,6 +97,7 @@
             this.btn_Logs.TabIndex = 45;
             this.btn_Logs.Text = "Logs";
             this.btn_Logs.UseVisualStyleBackColor = false;
+            this.btn_Logs.Click += new System.EventHandler(this.btn_Logs_Click);
             // 
             // btn_Home
             // 
@@ -110,6 +112,7 @@
             this.btn_Home.TabIndex = 17;
             this.btn_Home.Text = "Home";
             this.btn_Home.UseVisualStyleBackColor = false;
+            this.btn_Home.Click += new System.EventHandler(this.btn_Home_Click);
             // 
             // btn_ManageProject
             // 
@@ -124,6 +127,7 @@
             this.btn_ManageProject.TabIndex = 16;
             this.btn_ManageProject.Text = "Manage Project";
             this.btn_ManageProject.UseVisualStyleBackColor = false;
+            this.btn_ManageProject.Click += new System.EventHandler(this.btn_ManageProject_Click);
             // 
             // btn_ManageEmployee
             // 
@@ -151,6 +155,7 @@
             this.btn_Back.TabIndex = 14;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
+            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // btn_Exit
             // 
@@ -164,6 +169,7 @@
             this.btn_Exit.TabIndex = 8;
             this.btn_Exit.Text = "X";
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // btn_Insert
             // 
@@ -177,6 +183,7 @@
             this.btn_Insert.TabIndex = 29;
             this.btn_Insert.Text = "Insert";
             this.btn_Insert.UseVisualStyleBackColor = false;
+            this.btn_Insert.Click += new System.EventHandler(this.btn_Insert_Click);
             // 
             // btn_Edit
             // 
@@ -190,6 +197,7 @@
             this.btn_Edit.TabIndex = 28;
             this.btn_Edit.Text = "Edit";
             this.btn_Edit.UseVisualStyleBackColor = false;
+            this.btn_Edit.Click += new System.EventHandler(this.btn_Edit_Click);
             // 
             // btn_Delete
             // 
@@ -197,20 +205,22 @@
             this.btn_Delete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Delete.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Delete.Location = new System.Drawing.Point(12, 581);
+            this.btn_Delete.Location = new System.Drawing.Point(9, 616);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(194, 33);
             this.btn_Delete.TabIndex = 27;
             this.btn_Delete.Text = "Delete";
             this.btn_Delete.UseVisualStyleBackColor = false;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // dataGrid_User
             // 
             this.dataGrid_User.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGrid_User.Location = new System.Drawing.Point(3, 92);
+            this.dataGrid_User.Location = new System.Drawing.Point(169, 94);
             this.dataGrid_User.Name = "dataGrid_User";
-            this.dataGrid_User.Size = new System.Drawing.Size(907, 244);
+            this.dataGrid_User.Size = new System.Drawing.Size(544, 244);
             this.dataGrid_User.TabIndex = 26;
+            this.dataGrid_User.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrid_User_CellContentClick);
             // 
             // panel1
             // 
@@ -270,6 +280,7 @@
             this.input_Password.Name = "input_Password";
             this.input_Password.Size = new System.Drawing.Size(306, 32);
             this.input_Password.TabIndex = 39;
+            this.input_Password.TextChanged += new System.EventHandler(this.input_Password_TextChanged);
             // 
             // label3
             // 
@@ -290,6 +301,7 @@
             this.input_UserID.Name = "input_UserID";
             this.input_UserID.Size = new System.Drawing.Size(305, 32);
             this.input_UserID.TabIndex = 37;
+            this.input_UserID.TextChanged += new System.EventHandler(this.input_UserID_TextChanged);
             // 
             // label2
             // 
@@ -341,19 +353,35 @@
             this.btn_ChooseImage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ChooseImage.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_ChooseImage.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ChooseImage.Location = new System.Drawing.Point(488, 574);
+            this.btn_ChooseImage.Location = new System.Drawing.Point(488, 609);
             this.btn_ChooseImage.Name = "btn_ChooseImage";
             this.btn_ChooseImage.Size = new System.Drawing.Size(173, 40);
             this.btn_ChooseImage.TabIndex = 47;
             this.btn_ChooseImage.Text = "Choose Image";
             this.btn_ChooseImage.UseVisualStyleBackColor = false;
+            this.btn_ChooseImage.Click += new System.EventHandler(this.btn_ChooseImage_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(242)))), ((int)(((byte)(255)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(9, 575);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(194, 33);
+            this.button1.TabIndex = 48;
+            this.button1.Text = "Clear";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Admin_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(914, 625);
+            this.ClientSize = new System.Drawing.Size(914, 661);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_ChooseImage);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.ProfilePicture);
@@ -376,6 +404,7 @@
             this.Name = "Admin_User";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin_User";
+            this.Load += new System.EventHandler(this.Admin_User_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_User)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -413,5 +442,6 @@
         private System.Windows.Forms.PictureBox ProfilePicture;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btn_ChooseImage;
+        private System.Windows.Forms.Button button1;
     }
 }

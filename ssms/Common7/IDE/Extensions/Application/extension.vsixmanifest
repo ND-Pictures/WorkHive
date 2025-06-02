@@ -1,0 +1,16 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="SSMS.9aa94b07-b8c4-411a-9d68-9287fd610c1b" Version="1.0" Language="en-US" Publisher="Microsoft" />
+    <DisplayName>SQL Server Management Studio VSIX manifest</DisplayName>
+    <Description>Core extensions for SQL Server Management Studio</Description>
+  </Metadata>
+  <Installation SystemComponent="true" AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Ssms" Version="[17.0,)" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="SQLEditors.dll" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.AnalysisServices.DaxEditor.EditorExtensions.dll" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.SqlServer.Management.SqlStudio.dll" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="Microsoft.SqlServer.Management.UnifiedConnectionDialog.dll" />
+  </Assets>
+</PackageManifest>

@@ -23,5 +23,18 @@ namespace WorkHive64
             admin.Show();
             this.Hide();
         }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
+            this.Hide();
+        }
     }
 }

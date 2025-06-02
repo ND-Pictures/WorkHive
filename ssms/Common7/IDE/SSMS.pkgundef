@@ -1,0 +1,270 @@
+// The /debugexe command line is not applicable to SSMS
+[$RootKey$\AppCommandLine\DebugExe]
+
+// "To attach the debugger from the command line, use:..." is not applicable to SSMS
+[$RootKey$\AppCommandLine\vs7jitdebugginghelp]
+
+// The /TfsLink command line is not applicable to SSMS
+[$RootKey$\AppCommandLine\TfsLink]
+
+// The /diff command line is not applicable to SSMS (at least for SSMS 21)
+[$RootKey$\AppCommandLine\Diff]
+
+// SSMS 21 does not have a "WhatsNew" page
+[$RootKey$\Packages\{adcce324-d32c-4758-98cf-687ce2cd668e}]
+
+// Export Template Package
+// This package is responsible for "Export Template..." sub-menu under "Projects", which SSMS does not use.
+[$RootKey$\Packages\{f1e4cfca-4573-4345-8718-7bde2b1f0be8}]
+[$RootKey$\Menus]
+"{F1E4CFCA-4573-4345-8718-7BDE2B1F0BE8}"=""
+
+// The Call Hierarchy package is not applicable to SSMS
+// At a minimum, it's menu items should be hidden by uncommenting the following:
+// [$RootKey$\Menus]
+// "{3F3D9528-BAC4-420e-8147-29896300C5C0}"=""
+[$RootKey$\Packages\{3F3D9528-BAC4-420e-8147-29896300C5C0}]
+
+// Dev Shell package that contributes the Tools->Command Line->Developer Command Prompt and Developer PowerShell
+// menu items, which SSMS does not need since it doesn't have any developer launch profile
+[$RootKey$\Packages\{DC9FC401-8FD3-41BB-A2AC-4737522E9BD0}]
+
+// Other Tools|Options not really used by SSMS
+[$RootKey$\ToolsOptionsPages\Debugger]
+[$RootKey$\ToolsOptionsPages\Environment\Task List]
+[$RootKey$\ToolsOptionsPages\Environment\Extensions]
+[$RootKey$\ToolsOptionsPages\Projects\BuildAndRun]
+[$RootKey$\ToolsOptionsPages\Projects\NETCore]
+[$RootKey$\ToolsOptionsPages\Projects\VBDefaults]
+[$RootKey$\ToolsOptionsPages\Text Editor\Code Cleanup]
+[$RootKey$\ToolsOptionsPages\Text Editor\C#]
+[$RootKey$\ToolsOptionsPages\WindowsFormsDesigner]
+
+// Hide these languages from "Code Snippet Manager"
+[$RootKey$\Languages\CodeExpansions\HTML]
+[$RootKey$\Languages\CodeExpansions\Javascript]
+[$RootKey$\Languages\CodeExpansions\TypeScript]
+[$RootKey$\Languages\CodeExpansions\XAML]
+[$RootKey$\Languages\CodeExpansions\XML]
+[$RootKey$\Languages\CodeExpansions\CSharp]
+[$RootKey$\Languages\CodeExpansions\Basic]
+
+// ********
+// Remove unused language services
+// Note: the XAML, ResJSON, and TypeScript lines make
+//       those items disappear from Tools | Options | Text Editor
+[$RootKey$\Languages\Language Services\Basic]
+[$RootKey$\Languages\Language Services\CSharp]
+[$RootKey$\Languages\Language Services\CSS]
+[$RootKey$\Languages\Language Services\HTML]
+[$RootKey$\Languages\Language Services\JScript]
+[$RootKey$\Languages\Language Services\PL/SQL]
+[$RootKey$\Languages\Language Services\RDL Expression]
+[$RootKey$\Languages\Language Services\SQL Script]
+[$RootKey$\Languages\Language Services\T-SQL]
+[$RootKey$\Languages\Language Services\T-SQL7]
+[$RootKey$\Languages\Language Services\T-SQL80]
+[$RootKey$\Languages\Language Services\T-SQL90]
+[$RootKey$\Languages\Language Services\XAML]
+[$RootKey$\Languages\Language Services\ResJSON]
+[$RootKey$\Languages\Language Services\TypeScript]
+[$RootKey$\Languages\Language Services\AllLanguages\EditorToolsOptions\CodeLens]
+
+// ********
+// Remove unused fonts and colors
+// ********
+[$RootKey$\FontAndColors\XAML Designer]
+[$RootKey$\FontAndColors\AllDebuggerVarWnds]
+[$RootKey$\FontAndColors\Autos]
+[$RootKey$\FontAndColors\CallStack]
+[$RootKey$\FontAndColors\DebugLocation]
+[$RootKey$\FontAndColors\DataTips]
+[$RootKey$\FontAndColors\Immediate Window]
+[$RootKey$\FontAndColors\Locals]
+[$RootKey$\FontAndColors\Memory]
+[$RootKey$\FontAndColors\Parallel Stacks]
+[$RootKey$\FontAndColors\Parallel Tasks]
+[$RootKey$\FontAndColors\Parallel Watch]
+[$RootKey$\FontAndColors\Performance Tips]
+[$RootKey$\FontAndColors\Registers]
+[$RootKey$\FontAndColors\Threads]
+[$RootKey$\FontAndColors\Watch]
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Debugger Related Packages
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Visual Studio Debugger Managed Package
+[$RootKey$\Packages\{BEB01DDF-9D2B-435B-A9E7-76557E2B6B52}]
+
+// Visual Studio Debugger
+//[$RootKey$\Packages\{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}]
+
+// Remove Debug from main menu toolbar
+[$RootKey$\Menus]
+"{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"=""
+
+// Microsoft.VisualStudio.Debugger.PdtDebug
+[$RootKey$\Packages\{D277DC8A-AA1E-4303-8C03-1C58DB18E98B}]
+
+// Microsoft.VisualStudio.Debugger.Parallel.Gpu
+[$RootKey$\Packages\{52f5727d-fe3b-4812-80c4-6a8eebeab94f}]
+
+// "VSDebugCoreUI.ExceptionSettings.ExceptionSettingsToolWindow" tool window
+[$RootKey$\ToolWindows\{605322a2-17ae-43f4-b60f-766556e46c87}]
+
+// Disable VS Debug Core UI Package
+[$RootKey$\Packages\{D549BC66-C17B-4409-8729-583E60DC0BC1}]
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Windows Forms Designer related packages
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Windows Forms Designer Package - keep or Tools | Options won't work
+//[$RootKey$\Packages\{7494682B-37A0-11D2-A273-00C04F8EF4FF}]
+// Windows Forms Designer Hosting Package
+[$RootKey$\Packages\{68939055-38E0-4D17-92CB-8909710D8178}]
+// Windows Forms Designer Events Package "DesignerEventsPackage"
+[$RootKey$\Packages\{9DA57A40-22DE-4CC9-896A-500489DCE0E7}]
+// Windows Forms Designer Resources Package
+[$RootKey$\Packages\{7B5D447B-0B12-41EA-A84E-C822034422D4}]
+// Windows Forms Application Configuration Package
+[$RootKey$\Packages\{80C7728B-70A6-4528-8669-73E02D1B9C41}]
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Community Help Package
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// This package provides "Help | Check for Updates", etc...
+// so we do not want to exclude it.
+//[$RootKey$\Packages\{8DD4F433-5FD5-4E45-9EBB-EF0FB671B27C}]
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Microsoft.VisualStudio.Feedback.FeedbackPackage
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// This package provides a lot of functionality, like "Help | Privacy | Privacy Settings..." and things
+// like "Getting Started", "Roadmap", etc...  which SSMS needs. Menus/commands that are not applicable to SSMS
+// will be disabled/hidden.
+//[$RootKey$\Packages\{B22490B8-AA51-43B1-97EE-509A33B681F3}]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Roslyn, Basic and C# packages
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[$RootKey$\Packages\{6cf2e545-6109-4730-8883-cf43d7aec3e1}]
+[$RootKey$\Packages\{13c3bbb4-f18f-4111-9f54-a0fb010d9194}]
+[$RootKey$\Packages\{574fc912-f74f-4b4e-92c3-f695c208a2bb}]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Main Window Controls
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Github.Copilot badge
+[$RootKey$\MainWindowFrameControls\{F99881D9-BAAF-428E-BA80-A72BECFFFF9C}]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Feature Flags
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// These feature flags are defined for packages not included by SSMS.
+// If we don't undefine them, there will be errors in the ActivityLog.xml complaining about package not found
+// when loading these feature flags.
+[$RootKey$\FeatureFlags\JavaScript\LanguageService\LSP\PullDiagnostics2]
+[$RootKey$\FeatureFlags\JavaScript\LanguageService\LSP\Rename]
+[$RootKey$\FeatureFlags\TestingTools\UnitTesting\CodeCoverage\UXExperienceV2]
+[$RootKey$\FeatureFlags\TestingTools\UnitTesting\DebugFailedTestWithCopilot]
+[$RootKey$\FeatureFlags\TestingTools\UnitTesting\EarlyTestHostsStart]
+[$RootKey$\FeatureFlags\TestingTools\UnitTesting\UseTestingPlatformProtocol]
+[$RootKey$\FeatureFlags\TestingTools\UnitTesting\RemoteTestingWindowsContainerSupport]
+[$RootKey$\FeatureFlags\TestingTools\UnitTesting\Intellitest\Z3v4]
+[$RootKey$\FeatureFlags\Winforms\UsePreviewDesigner]
+[$RootKey$\FeatureFlags\Winforms\DesignerSelectionForNetFrameworkProjects]
+[$RootKey$\FeatureFlags\Xamarin\DisableiOSAka]
+[$RootKey$\FeatureFlags\Xaml\EnableLspIntelliSense]
+[$RootKey$\FeatureFlags\Xaml\LivePreview\AlwasyOnSelection]
+[$RootKey$\FeatureFlags\Xaml\MauiFullPageHotReload]
+
+// These feature flags are removed in SSMS since they aren't applicable - usually
+// due to the feature not existing/being enabled
+
+// Enables parallel batch build.
+[$RootKey$\FeatureFlags\Solution\ParallelBatchBuild]
+// Enable Build Acceleration by default
+[$RootKey$\FeatureFlags\ManagedProjectSystem\EnableBuildAccelerationByDefault]
+// Allows for the creation and usage of multi-project launch profiles.
+[$RootKey$\FeatureFlags\ProjectSystem\EnableMultiProjectLaunchProfiles]
+// Use the new Mono debugger engine for MAUI apps. .NET 8.0.202 or higher is required.
+[$RootKey$\FeatureFlags\ClientTools\Platform\NewMonoDebugEngineMobile]
+// Enable VC projects to detect imported file changes and update automatically.
+[$RootKey$\FeatureFlags\VC\UpdateProjectOnImportsChange]
+// Appends a warning message to build output whenever an incremental build issue is detected after building an SDK-style project.
+[$RootKey$\FeatureFlags\ManagedProjectSystem\EnableIncrementalBuildFailureOutputLogging]
+// Enable New Extensibility flavor of Register VS command.
+[$RootKey$\FeatureFlags\Identity\EnableNewRegisterVS]
+// Enables publishing telemetry about incremental build failures.
+[$RootKey$\FeatureFlags\ManagedProjectSystem\EnableIncrementalBuildFailureTelemetry]
+// Try the new experience for managing Visual Studio settings and options
+[$RootKey$\FeatureFlags\VS\Core\NewSettingsExperience]
+// When editing .settings files in SDK-style projects, store type names that are compatible with both the designer and the project's target runtime.
+[$RootKey$\FeatureFlags\AppSettingsDesigner\UseImprovedTypeResolution]
+// When editing .resx files in SDK-style projects, store type names that are compatible with both the designer and the project's target runtime.
+[$RootKey$\FeatureFlags\ResourceDesigner\UseImprovedTypeResolution]
+// Use the welcome page instead of the start window
+[$RootKey$\FeatureFlags\VS\Core\WelcomePage]
+// If true then Windows Forms Designer will load Asynchronously.
+[$RootKey$\FeatureFlags\Winforms\AsyncDesignerLoad]
+// Enable the TimestampOptimization in the Extension Engine.
+[$RootKey$\FeatureFlags\ExtensionManager\TimestampOptimization]
+// Try out the new extension manager design!
+[$RootKey$\FeatureFlags\ExtensionManager\UI\Refresh\17\12P1]
+// Enables new solution file parsers for serializing .sln solution files.
+[$RootKey$\FeatureFlags\Solution\FilePersistence]
+// Enable Solution Load Cancellation.
+[$RootKey$\FeatureFlags\Solution\Services\CancelSolutionLoad]
+// Enables serializing .slnx solution files.
+[$RootKey$\FeatureFlags\Solution\EnableSlnx]
+// Load projects from evaluation cache if true. Project evaluation will only happen if projects require a writeable evaluation context
+[$RootKey$\FeatureFlags\CPS\LoadProjectFromCache]
+// Solution file changed handling key for branch switch. This when enabled will use the new solution reload optimizations to minimize solution reloads when the IDE git is used for branch switches
+[$RootKey$\FeatureFlags\BFO\SolutionFileReloadOptimizer]
+// Enable opening solutions asynchronously.
+[$RootKey$\FeatureFlags\Solution\Services\UseAsync]
+// Enables commands to start built-in VS guides.
+[$RootKey$\FeatureFlags\VS\Core\Tutorial]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Settings will result in import/export errors
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[$RootKey$\AutomationProperties\TextEditor\CSharp-Specific]
+[$RootKey$\AutomationProperties\TextEditor\CSharp]
+[$RootKey$\AutomationProperties\TextEditor\Basic-Specific]
+[$RootKey$\AutomationProperties\TextEditor\Basic]
+[$RootKey$\UserSettings\WindowsFormsDesigner_General]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Settings packages that cause issues
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// C# intellisense
+[$RootKey$\SettingsManifests\{13c3bbb4-f18f-4111-9f54-a0fb010d9194}]
+
+// VB Intellisense
+[$RootKey$\SettingsManifests\{574fc912-f74f-4b4e-92c3-f695c208a2bb}]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Remove Editor File Extension Mappings
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Visual C# Editor
+[$RootKey$\FileExtensionMapping\{201669EE-A2F4-4B72-82C6-028810C22A40}]
+// Visual Basic Editor
+[$RootKey$\FileExtensionMapping\{4EFF8F38-5CAD-44D4-BA53-E9F0FC152D1F}]
+// Managed Linux Core Dump File Summary Editor
+[$RootKey$\Editors\{9C19E355-9513-4B61-A674-7730FDDF0A56}]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Extension Manager Package - E7576C05-1874-450c-9E98-CF3A0897A069 
+//  and its Option Page      - 539391D7-9414-4715-B033-8669DB0ABEE1
+// Remove "Extension" options from "Tools | Options | Environment" and settings.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[$RootKey$\ToolsOptionsPages\Environment\ExtensionManager]
+[$RootKey$\AutomationProperties\Environment\ExtensionManager]
+[$RootKey$\UserSettings\Environment_Group\Environment_ExtensionManager]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Remove Copilot Walkthrough
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[$RootKey$\Packages\{c1be79cc-09ee-4015-be6b-4ac1be57b04a}]

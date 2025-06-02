@@ -1,0 +1,12 @@
+[$Initialization$]
+"ApplicationExtensionsFolder" = "$RootFolder$\Common7\IDE\Extensions"
+"PkgDefSearchPath"            = "$ApplicationExtensionsFolder$;                    \
+                                 $RootFolder$\Common7\IDE\CommonExtensions;        \
+                                 $RootFolder$\Common7\IDE\ssms.admin.pkgdef;       \
+                                 $RootFolder$\Common7\IDE\Ssms.Application.pkgdef; \
+                                 $RootFolder$\Common7\IDE\Extensions\Application"
+"UserExtensionsRootFolder"    = "$AppDataLocalFolder$\Extensions"
+"RegistryRoot"                = "Software\Microsoft\SSMS\21.0"
+"ImageManifestSearchPath"     = "$RootFolder$\Common7\IDE\Extensions;              \
+                                 $RootFolder$\Common7\IDE\CommonExtensions;        \
+                                 $AppDataLocalFolder$\Extensions"

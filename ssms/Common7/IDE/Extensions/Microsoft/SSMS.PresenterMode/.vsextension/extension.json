@@ -1,0 +1,123 @@
+{
+  "controlContainers": [
+    {
+      "tooltipText": "%PresenterMode%",
+      "type": "Menu",
+      "name": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup",
+      "displayName": "%PresenterMode%"
+    }
+  ],
+  "controlGroups": [
+    {
+      "name": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup.DefaultGeneratedGroup0"
+    }
+  ],
+  "controlPlacements": [
+    {
+      "controlName": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup",
+      "parent": {
+        "legacyParentId": {
+          "guid": "d309f791-903f-11d0-9efc-00a0c911004f",
+          "id": 306
+        },
+        "priority": 0
+      }
+    },
+    {
+      "controlName": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup.DefaultGeneratedGroup0",
+      "parent": {
+        "parentName": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup",
+        "relativeDisplayOrder": 100
+      }
+    },
+    {
+      "controlName": "Microsoft.SqlServer.Management.PresenterMode.ToggleModeCommand",
+      "parent": {
+        "parentName": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup.DefaultGeneratedGroup0",
+        "relativeDisplayOrder": 100
+      }
+    },
+    {
+      "controlName": "Microsoft.SqlServer.Management.PresenterMode.EditSettingsCommand",
+      "parent": {
+        "parentName": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup.DefaultGeneratedGroup0",
+        "relativeDisplayOrder": 200
+      }
+    },
+    {
+      "controlName": "Microsoft.SqlServer.Management.PresenterMode.RestoreDefaultFontsCommand",
+      "parent": {
+        "parentName": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension.PresentationModeMenuGroup.DefaultGeneratedGroup0",
+        "relativeDisplayOrder": 300
+      }
+    }
+  ],
+  "commandSets": [
+    {
+      "name": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension",
+      "serviceMoniker": {
+        "name": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtensionCommandSet",
+        "version": "21.200"
+      },
+      "commands": [
+        {
+          "tooltipText": "%EditSettingsCommand.DisplayName%",
+          "flags": "None",
+          "icon": {
+            "IconName": "KnownMonikers.Edit",
+            "iconSettings": "IconAndText"
+          },
+          "name": "Microsoft.SqlServer.Management.PresenterMode.EditSettingsCommand",
+          "displayName": "%EditSettingsCommand.DisplayName%",
+          "contextProviderName": "Editor,Shell"
+        },
+        {
+          "tooltipText": "%RestoreDefaultFontsCommand.DisplayName%",
+          "flags": "None",
+          "icon": {
+            "IconName": "KnownMonikers.RestoreDefaultView",
+            "iconSettings": "IconAndText"
+          },
+          "name": "Microsoft.SqlServer.Management.PresenterMode.RestoreDefaultFontsCommand",
+          "displayName": "%RestoreDefaultFontsCommand.DisplayName%",
+          "contextProviderName": "Editor,Shell"
+        },
+        {
+          "tooltipText": "%ToggleModeCommand.DisplayName%",
+          "flags": "None",
+          "shortcuts": [
+            {
+              "mod1": "ControlShift",
+              "key1": "F5",
+              "mod2": "None",
+              "key2": "None",
+              "context": "{5EFC7975-14BC-11CF-9B2B-00AA00573819}"
+            }
+          ],
+          "icon": {
+            "IconName": "KnownMonikers.Slideshow",
+            "iconSettings": "IconAndText"
+          },
+          "name": "Microsoft.SqlServer.Management.PresenterMode.ToggleModeCommand",
+          "displayName": "%ToggleModeCommand.DisplayName%",
+          "contextProviderName": "Editor,Shell"
+        }
+      ],
+      "dynamicCommandAnchors": []
+    }
+  ],
+  "services": [
+    {
+      "host": "dotnetExtensibility",
+      "name": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtensionCommandSet",
+      "serviceBaseDirectory": ".",
+      "serviceAudience": "Local | RemoteExclusiveClient",
+      "version": "21.200",
+      "entryPoint": {
+        "assemblyPath": "Microsoft.SqlServer.Management.PresenterMode.dll",
+        "fullClassName": "Microsoft.SqlServer.Management.PresenterMode.PresenterModeExtension"
+      },
+      "allowHostingInProcess": true
+    }
+  ]
+}

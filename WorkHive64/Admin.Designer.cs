@@ -47,6 +47,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.btn_ChangeProfilePicture = new System.Windows.Forms.Button();
             this.dataGrid_Project = new System.Windows.Forms.DataGridView();
+            this.btn_Logs = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePicture)).BeginInit();
@@ -60,7 +61,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(798, 49);
+            this.panel1.Size = new System.Drawing.Size(1019, 49);
             this.panel1.TabIndex = 8;
             // 
             // btn_Exit
@@ -69,12 +70,13 @@
             this.btn_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Exit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Exit.Location = new System.Drawing.Point(753, 3);
+            this.btn_Exit.Location = new System.Drawing.Point(969, 3);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(37, 42);
             this.btn_Exit.TabIndex = 8;
             this.btn_Exit.Text = "X";
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // label1
             // 
@@ -90,13 +92,14 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.btn_Logs);
             this.panel2.Controls.Add(this.btn_Home);
             this.panel2.Controls.Add(this.btn_ManageProject);
             this.panel2.Controls.Add(this.btn_ManageEmployee);
             this.panel2.Controls.Add(this.btn_Back);
             this.panel2.Location = new System.Drawing.Point(0, 48);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(798, 40);
+            this.panel2.Size = new System.Drawing.Size(1019, 40);
             this.panel2.TabIndex = 9;
             // 
             // btn_Home
@@ -107,7 +110,7 @@
             this.btn_Home.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Home.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Home.ForeColor = System.Drawing.Color.Black;
-            this.btn_Home.Location = new System.Drawing.Point(318, 4);
+            this.btn_Home.Location = new System.Drawing.Point(397, 3);
             this.btn_Home.Name = "btn_Home";
             this.btn_Home.Size = new System.Drawing.Size(81, 33);
             this.btn_Home.TabIndex = 13;
@@ -120,12 +123,13 @@
             this.btn_ManageProject.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ManageProject.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_ManageProject.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ManageProject.Location = new System.Drawing.Point(405, 4);
+            this.btn_ManageProject.Location = new System.Drawing.Point(484, 3);
             this.btn_ManageProject.Name = "btn_ManageProject";
             this.btn_ManageProject.Size = new System.Drawing.Size(176, 33);
             this.btn_ManageProject.TabIndex = 12;
             this.btn_ManageProject.Text = "Manage Project";
             this.btn_ManageProject.UseVisualStyleBackColor = false;
+            this.btn_ManageProject.Click += new System.EventHandler(this.btn_ManageProject_Click);
             // 
             // btn_ManageEmployee
             // 
@@ -133,12 +137,13 @@
             this.btn_ManageEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ManageEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_ManageEmployee.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ManageEmployee.Location = new System.Drawing.Point(587, 4);
+            this.btn_ManageEmployee.Location = new System.Drawing.Point(666, 4);
             this.btn_ManageEmployee.Name = "btn_ManageEmployee";
             this.btn_ManageEmployee.Size = new System.Drawing.Size(203, 33);
             this.btn_ManageEmployee.TabIndex = 11;
             this.btn_ManageEmployee.Text = "Manage Employee";
             this.btn_ManageEmployee.UseVisualStyleBackColor = false;
+            this.btn_ManageEmployee.Click += new System.EventHandler(this.btn_ManageEmployee_Click);
             // 
             // btn_Back
             // 
@@ -152,6 +157,7 @@
             this.btn_Back.TabIndex = 10;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
+            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // ProfilePicture
             // 
@@ -256,21 +262,37 @@
             this.btn_ChangeProfilePicture.TabIndex = 14;
             this.btn_ChangeProfilePicture.Text = "Change Picture";
             this.btn_ChangeProfilePicture.UseVisualStyleBackColor = false;
+            this.btn_ChangeProfilePicture.Click += new System.EventHandler(this.btn_ChangeProfilePicture_Click_1);
             // 
             // dataGrid_Project
             // 
             this.dataGrid_Project.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGrid_Project.Location = new System.Drawing.Point(350, 122);
+            this.dataGrid_Project.Location = new System.Drawing.Point(448, 99);
             this.dataGrid_Project.Name = "dataGrid_Project";
-            this.dataGrid_Project.Size = new System.Drawing.Size(448, 318);
+            this.dataGrid_Project.Size = new System.Drawing.Size(547, 318);
             this.dataGrid_Project.TabIndex = 21;
+            this.dataGrid_Project.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrid_Project_CellContentClick);
+            // 
+            // btn_Logs
+            // 
+            this.btn_Logs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(218)))), ((int)(((byte)(248)))));
+            this.btn_Logs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Logs.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Logs.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Logs.Location = new System.Drawing.Point(875, 4);
+            this.btn_Logs.Name = "btn_Logs";
+            this.btn_Logs.Size = new System.Drawing.Size(114, 33);
+            this.btn_Logs.TabIndex = 41;
+            this.btn_Logs.Text = "Logs";
+            this.btn_Logs.UseVisualStyleBackColor = false;
+            this.btn_Logs.Click += new System.EventHandler(this.btn_Logs_Click);
             // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(867, 476);
+            this.ClientSize = new System.Drawing.Size(1023, 446);
             this.Controls.Add(this.dataGrid_Project);
             this.Controls.Add(this.btn_ChangeProfilePicture);
             this.Controls.Add(this.label8);
@@ -318,5 +340,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_ChangeProfilePicture;
         private System.Windows.Forms.DataGridView dataGrid_Project;
+        private System.Windows.Forms.Button btn_Logs;
     }
 }

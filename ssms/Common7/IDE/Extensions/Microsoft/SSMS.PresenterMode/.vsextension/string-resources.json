@@ -1,0 +1,6 @@
+{
+  "ToggleModeCommand.DisplayName": "Toggle Presenter Mode",
+  "EditSettingsCommand.DisplayName": "Edit Presenter Mode Settings",
+  "RestoreDefaultFontsCommand.DisplayName": "Restore Default Font Settings",
+  "PresenterMode": "Presenter Mode"
+}

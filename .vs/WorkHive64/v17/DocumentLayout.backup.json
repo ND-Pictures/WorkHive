@@ -1,70 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\",
+  "WorkspaceRootPath": "E:\\WorkHive\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|c:\\users\\naufal nd\\source\\repos\\workhive64\\workhive64\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|c:\\users\\naufal nd\\source\\repos\\workhive64\\workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\workhive64\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\employee_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|e:\\workhive\\workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|E:\\WorkHive\\workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AC52DA3-6FF4-41CC-AAAF-6AFE4D4092D2}|WorkHive64\\WorkHive64.csproj|solutionrelative:workhive64\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,118 +90,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Employee_Project.cs",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Project.cs",
+              "DocumentIndex": 3,
+              "Title": "Employee_Project.cs [Design]",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Employee_Project.cs",
               "RelativeDocumentMoniker": "WorkHive64\\Employee_Project.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Project.cs",
-              "RelativeToolTip": "WorkHive64\\Employee_Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBUAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Employee_Project.cs [Design]",
+              "RelativeToolTip": "WorkHive64\\Employee_Project.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T08:14:05.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Employee_Home.cs",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Home.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Employee_Home.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Home.cs",
-              "RelativeToolTip": "WorkHive64\\Employee_Home.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:02:56.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Employee.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee.cs",
-              "RelativeToolTip": "WorkHive64\\Employee.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:01:35.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Login.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Login.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Login.cs",
-              "RelativeToolTip": "WorkHive64\\Login.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwDAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T01:20:35.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Home.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Home.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Home.cs",
-              "RelativeToolTip": "WorkHive64\\Home.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T04:53:03.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Admin.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin.cs",
-              "RelativeToolTip": "WorkHive64\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T04:30:50.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Admin_Project.cs",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_Project.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Admin_Project.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_Project.cs",
-              "RelativeToolTip": "WorkHive64\\Admin_Project.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T01:57:12.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Login.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Login.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Login.cs [Design]",
-              "RelativeToolTip": "WorkHive64\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:30:36.768Z",
+              "WhenOpened": "2025-05-06T05:03:40.642Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "Employee_Project.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Employee_Project.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Employee_Project.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Employee_Project.cs",
+              "RelativeToolTip": "WorkHive64\\Employee_Project.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAIA0wFcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:12:44.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Home.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Home.cs",
               "RelativeDocumentMoniker": "WorkHive64\\Home.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Home.cs [Design]",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Home.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T03:29:27.891Z",
@@ -193,59 +131,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Admin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Admin.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin.cs [Design]",
-              "RelativeToolTip": "WorkHive64\\Admin.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Home.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Home.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Home.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Home.cs",
+              "RelativeToolTip": "WorkHive64\\Home.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:58:28.447Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-07T04:53:03.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Admin_Project.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_Project.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Admin_Project.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_Project.cs [Design]",
-              "RelativeToolTip": "WorkHive64\\Admin_Project.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Logs.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Logs.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Logs.cs",
+              "RelativeToolTip": "WorkHive64\\Logs.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAvwFkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T02:31:04.712Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-31T16:43:13.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Admin_User.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_User.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Admin_User.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Admin_User.cs [Design]",
-              "RelativeToolTip": "WorkHive64\\Admin_User.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T04:53:21.691Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Logs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Logs.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Logs.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Logs.cs [Design]",
-              "RelativeToolTip": "WorkHive64\\Logs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:51:45.287Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Employee_Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Home.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Employee_Home.cs",
               "RelativeDocumentMoniker": "WorkHive64\\Employee_Home.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Home.cs [Design]",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Employee_Home.cs [Design]",
               "RelativeToolTip": "WorkHive64\\Employee_Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T04:15:48.581Z",
@@ -255,10 +171,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Employee.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Employee.cs",
               "RelativeDocumentMoniker": "WorkHive64\\Employee.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee.cs [Design]",
-              "RelativeToolTip": "WorkHive64\\Employee.cs [Design]",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Employee.cs [Design]*",
+              "RelativeToolTip": "WorkHive64\\Employee.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T04:54:48.671Z",
               "EditorCaption": " [Design]"
@@ -266,13 +182,164 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Employee_Project.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Project.cs",
-              "RelativeDocumentMoniker": "WorkHive64\\Employee_Project.cs",
-              "ToolTip": "C:\\Users\\Naufal ND\\source\\repos\\WorkHive64\\WorkHive64\\Employee_Project.cs [Design]",
-              "RelativeToolTip": "WorkHive64\\Employee_Project.cs [Design]",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Employee.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Employee.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Employee.cs*",
+              "RelativeToolTip": "WorkHive64\\Employee.cs*",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAewJMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T05:03:40.642Z",
+              "WhenOpened": "2025-05-07T06:01:35.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Logs.cs [Design]",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Logs.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Logs.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Logs.cs [Design]",
+              "RelativeToolTip": "WorkHive64\\Logs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:42:44.408Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Login.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Login.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Login.cs",
+              "RelativeToolTip": "WorkHive64\\Login.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAvwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:20:35.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Login.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Login.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Login.cs [Design]",
+              "RelativeToolTip": "WorkHive64\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T01:30:36.768Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee_Home.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Employee_Home.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Employee_Home.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Employee_Home.cs",
+              "RelativeToolTip": "WorkHive64\\Employee_Home.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAMwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:02:56.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Comments.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Comments.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Comments.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Comments.cs",
+              "RelativeToolTip": "WorkHive64\\Comments.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAewK8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:11:41.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Comments.cs [Design]",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Comments.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Comments.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Comments.cs [Design]",
+              "RelativeToolTip": "WorkHive64\\Comments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:11:20.803Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Admin_User.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Admin_User.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Admin_User.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Admin_User.cs",
+              "RelativeToolTip": "WorkHive64\\Admin_User.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAMwHYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:38:17.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin_User.cs [Design]",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Admin_User.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Admin_User.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Admin_User.cs [Design]",
+              "RelativeToolTip": "WorkHive64\\Admin_User.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T04:53:21.691Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Admin_Project.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Admin_Project.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Admin_Project.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Admin_Project.cs",
+              "RelativeToolTip": "WorkHive64\\Admin_Project.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAMwIwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:57:12.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Admin_Project.cs [Design]",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Admin_Project.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Admin_Project.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Admin_Project.cs [Design]",
+              "RelativeToolTip": "WorkHive64\\Admin_Project.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T02:31:04.712Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Admin.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Admin.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Admin.cs",
+              "RelativeToolTip": "WorkHive64\\Admin.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAvwGQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:30:50.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "E:\\WorkHive\\WorkHive64\\Admin.cs",
+              "RelativeDocumentMoniker": "WorkHive64\\Admin.cs",
+              "ToolTip": "E:\\WorkHive\\WorkHive64\\Admin.cs [Design]",
+              "RelativeToolTip": "WorkHive64\\Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T01:58:28.447Z",
               "EditorCaption": " [Design]"
             }
           ]
